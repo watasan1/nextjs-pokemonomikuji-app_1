@@ -2,7 +2,7 @@
 
 import useFortuneResult from "./_hooks/useFortuneResult";
 import FortuneResult from "./_components/fortune-result";
-import FortuneButton from "./_components/fortune_button";
+import FortuneButton from "./_components/fortune-button";
 
 export default function Home() {
   const { fortune, drawFortune, isDrawing } = useFortuneResult();
